@@ -21,7 +21,7 @@ function formatAndSendTweet(event) {
     const formattedEthPrice = formattedUnits * tokenEthPrice;
     const formattedUsdPrice = formattedUnits * tokenUsdPrice;
 
-    const tweetText = `${assetName} was purchased for ${formattedEthPrice}${ethers.constants.EtherSymbol} ($${Number(formattedUsdPrice).toFixed(2)})\n ${openseaLink}\n #cryptorastas #nfts #altpunks`;
+    const tweetText = `Atom ⚛️ ${tokenName} was purchased for ${formattedTokenPrice}${formattedPriceSymbol} ($${formattedUsdPrice}) \n ${openseaLink} \n #pownft #ethereum #nfts`;
 
     console.log(tweetText);
 
